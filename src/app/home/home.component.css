@@ -1,0 +1,23 @@
+div.card-card{
+    display: flex;
+    justify-content: space-between; 
+}
+
+div.card-body{
+    background-color: #404d59;
+
+    
+}  
+
+div.card-header{
+    background-color: #2B3E50;
+}
+
+div.card{
+    border: 2px black  solid;
+    border-radius: 40px;
+}
+
+div.card-title{
+    text-align: center;
+}
