@@ -15,9 +15,37 @@ div.card-header{
 
 div.card{
     border: 2px black  solid;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 div.card-title{
     text-align: center;
 }
+
+
+.card {
+    color: #fff;
+    position: relative;
+  }
+  .card:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .card:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  
