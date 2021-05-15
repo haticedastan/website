@@ -1,0 +1,30 @@
+.row{
+   
+    justify-content:space-evenly;
+}
+
+h1{
+    border: 1px black solid;
+    margin: 1rem;
+}
+
+
+.card {
+    color: #fff;
+  }
+  .card:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .card:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

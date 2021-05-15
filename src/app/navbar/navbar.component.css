@@ -1,5 +1,9 @@
 /* Images */
-
+.navbar{
+  -moz-box-shadow: -5px 3px 26px #000000;
+  -webkit-box-shadow: -5px 3px 26px #000000;
+  box-shadow: -5px 3px 26px #000000;
+}
 img{
     width: 150px;
     border: 10px black solid;

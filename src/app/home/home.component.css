@@ -1,16 +1,25 @@
-div.card-card{
+/* div.card-card{
     display: flex;
     justify-content: space-between; 
+} */
+
+div.row{
+    display: flex;
+    justify-content: space-between;
 }
 
 div.card-body{
     background-color: #404d59;
-
     
 }  
 
+.bg-primary{
+    background-color: black !important;
+    
+    }
+
 div.card-header{
-    background-color: #2B3E50;
+    background-color: #2b3e50;
 }
 
 div.card{
@@ -43,9 +52,5 @@ div.card-title{
     width: 100%; 
     left: 0; 
   }
-  @media screen and (max-height: 300px) {
-      ul {
-          margin-top: 40px;
-      }
-  }
+  
   
